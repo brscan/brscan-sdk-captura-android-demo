@@ -1,0 +1,2 @@
+include ':app'
+rootProject.name = "BrScan SDK Captura Android Demo"
