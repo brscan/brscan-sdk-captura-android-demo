@@ -24,9 +24,9 @@ Os seguintes sistemas operacionais são suportados pelos componente:
 
 O componente deverá ser inicializado através dos seguintes atributos
 
-chave: string, obrigatório
-cropDocumento: boolean, opcional, false
-validaDocumento: boolean, ocional, false
+<b>chave</b>: string, obrigatório<br/>
+<b>cropDocumento</b>: boolean, opcional, false<br/>
+<b>validaDocumento</b>: boolean, ocional, false<br/>
 
 ```java
 Intent i = new Intent(DemoActivity.this, CapturaActivity.class);
@@ -55,9 +55,9 @@ CapturaActivity.ERRO_CAPTURAR_IAMGEM
 
 No caso de sucesso, os seguintes extras estarão disponíveis:
 
-arquivo: string, contem o caminho da imagem gerada
-tipo: string, opcional, tipo de documento encontrado pela validação do documento
-score: string, opcional, valor de acurácia do documento
+<b>arquivo</b>: string, contem o caminho da imagem gerada<br/>
+<b>tipo</b>: string, opcional, tipo de documento encontrado pela validação do documento<br/>
+<b>score</b>: string, opcional, valor de acurácia do documento<br/>
 
 ## Versionamento
 
