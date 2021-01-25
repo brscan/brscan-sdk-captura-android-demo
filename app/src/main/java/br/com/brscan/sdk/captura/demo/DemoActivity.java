@@ -70,17 +70,23 @@ public class DemoActivity extends AppCompatActivity {
                     imagemCapturada.setImageBitmap(imageBitmap);
 
                     String tipo = data.getStringExtra("tipo");
+                    TextView tipoTexto = findViewById(R.id.tipoTexto);
 
                     if(tipo != null && tipo != "") {
-                        TextView tipoTexto = findViewById(R.id.tipoTexto);
                         tipoTexto.setText("Tipo: "+tipo);
+                    }
+                    else {
+                        tipoTexto.setText("");
                     }
 
                     String score = data.getStringExtra("score");
 
+                    TextView scoreTexto = findViewById(R.id.scoreTexto);
                     if(score != null && score != "") {
-                        TextView scoreTexto = findViewById(R.id.scoreTexto);
                         scoreTexto.setText("Score: "+score);
+                    }
+                    else {
+                        scoreTexto.setText("");
                     }
                 }
                 else {
