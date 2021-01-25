@@ -17,7 +17,7 @@ allprojects {
         google()
         jcenter()
         maven {
-            url "https://dl.bintray.com/br-com-brscan/brscan-sdk-captura-android/"
+            url "https://dl.bintray.com/brscan/brscan-sdk/"
         }
     }
 }
