@@ -47,7 +47,7 @@ public class DemoActivity extends AppCompatActivity {
 
     private void iniciaCaptura() {
         Intent i = new Intent(DemoActivity.this, CapturaActivity.class);
-        i.putExtra("chave", "1325927C99BF0EEA791F96CECE5D1D5B8BAC859D16CAABE4");
+        i.putExtra("chave", "");
         i.putExtra("cropDocumento", true);
         i.putExtra("validaDocumento", true);
         startActivityForResult(i, RETORNO_CAPTURA_ACTIVITY);
