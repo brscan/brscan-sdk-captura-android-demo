@@ -56,6 +56,7 @@ CapturaActivity.ERRO_CAPTURAR_IAMGEM
 No caso de sucesso, os seguintes extras estarão disponíveis:
 
 <b>arquivo</b>: string, contem o caminho da imagem gerada<br/>
+<b>tipoCaptura</b>: string, valor indicando se a foi Automática ou Manual<br/>
 <b>tipo</b>: string, opcional, tipo de documento encontrado pela validação do documento<br/>
 <b>score</b>: string, opcional, valor de acurácia do documento<br/>
 
