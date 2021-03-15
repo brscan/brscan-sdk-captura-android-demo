@@ -26,13 +26,15 @@ O componente deverá ser inicializado através dos seguintes atributos
 
 <b>chave</b>: string, obrigatório<br/>
 <b>cropDocumento</b>: boolean, opcional, false<br/>
-<b>validaDocumento</b>: boolean, ocional, false<br/>
+<b>validaDocumento</b>: boolean, opcional, false<br/>
+<b>timeoutCapturaManual</b>: int, opcional, null<br/>
 
 ```java
 Intent i = new Intent(DemoActivity.this, CapturaActivity.class);
 i.putExtra("chave", "");
 i.putExtra("cropDocumento", true);
 i.putExtra("validaDocumento", true);
+i.putExtra("timeoutCapturaManual", 10000);
 startActivityForResult(i, RETORNO_CAPTURA_ACTIVITY);
 ```
 
