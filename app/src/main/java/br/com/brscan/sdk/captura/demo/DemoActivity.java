@@ -50,6 +50,7 @@ public class DemoActivity extends AppCompatActivity {
         i.putExtra("chave", "");
         i.putExtra("cropDocumento", true);
         i.putExtra("validaDocumento", true);
+        i.putExtra("timeoutCapturaManual", 10000);
         startActivityForResult(i, RETORNO_CAPTURA_ACTIVITY);
     }
 

@@ -147,6 +147,25 @@
 
         </RelativeLayout>
 
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+            <ImageView
+                android:id="@+id/botaoCapturaManual"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:layout_marginBottom="70dp"
+                android:scaleType="centerInside"
+                android:visibility="gone"
+                android:src="@drawable/botao_captura_manual"/>
+
+        </RelativeLayout>
+
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

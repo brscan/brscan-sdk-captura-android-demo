@@ -844,6 +844,7 @@ int drawable abc_textfield_search_default_mtrl_alpha 0x0
 int drawable abc_textfield_search_material 0x0
 int drawable abc_vector_test 0x0
 int drawable borda_aviso 0x0
+int drawable botao_captura_manual 0x0
 int drawable botao_capturar_documento 0x0
 int drawable botao_capturar_nova 0x0
 int drawable btn_checkbox_checked_mtrl 0x0
@@ -855,6 +856,7 @@ int drawable btn_radio_off_to_on_mtrl_animation 0x0
 int drawable btn_radio_on_mtrl 0x0
 int drawable btn_radio_on_to_off_mtrl_animation 0x0
 int drawable camera 0x0
+int drawable capture_camera 0x0
 int drawable common_full_open_on_phone 0x0
 int drawable common_google_signin_btn_icon_dark 0x0
 int drawable common_google_signin_btn_icon_dark_focused 0x0
@@ -982,9 +984,13 @@ int id autoCompleteToStart 0x0
 int id back 0x0
 int id baseline 0x0
 int id blocking 0x0
+int id botaoCapturaManual 0x0
 int id bottom 0x0
 int id bounce 0x0
 int id buttonPanel 0x0
+int id capturaDocumento 0x0
+int id capturaDocumentoLayout 0x0
+int id capturaDocumentoNovo 0x0
 int id center 0x0
 int id chain 0x0
 int id checkbox 0x0
@@ -1038,6 +1044,7 @@ int id iconeCaptura 0x0
 int id ignore 0x0
 int id ignoreRequest 0x0
 int id image 0x0
+int id imagemCapturada 0x0
 int id info 0x0
 int id invisible 0x0
 int id italic 0x0
@@ -1087,6 +1094,7 @@ int id right_icon 0x0
 int id right_side 0x0
 int id sairImg 0x0
 int id sawtooth 0x0
+int id scoreTexto 0x0
 int id screen 0x0
 int id scrollIndicatorDown 0x0
 int id scrollIndicatorUp 0x0
@@ -1137,6 +1145,7 @@ int id textSpacerNoButtons 0x0
 int id textSpacerNoTitle 0x0
 int id textoDescricao 0x0
 int id time 0x0
+int id tipoTexto 0x0
 int id title 0x0
 int id titleDividerNoCustom 0x0
 int id title_template 0x0
@@ -1194,6 +1203,7 @@ int layout abc_search_view 0x0
 int layout abc_select_dialog_material 0x0
 int layout abc_tooltip 0x0
 int layout activity_captura 0x0
+int layout activity_demo 0x0
 int layout custom_dialog 0x0
 int layout notification_action 0x0
 int layout notification_action_tombstone 0x0
