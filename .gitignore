@@ -13,4 +13,4 @@
 .externalNativeBuild
 .cxx
 local.properties
-brscan-sdk-captura-android-release/build/
+brscan-sdk-captura-android-release/build
